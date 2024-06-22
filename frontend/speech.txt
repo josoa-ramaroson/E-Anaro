@@ -1,0 +1,14 @@
+Finalité du produit
+
+- introduction: 
+Levez la main si vous êtes comme moi. 
+levez la main si vous aussi vous êtes inscris sur toutes les plateformes d'éducation enligne possible?
+il existe beaucoup de plateforme d'éducation de
+notre proposition: un ensemble d'outils complement personnalizables
+- development : comme tous les applis, il est toujours nécessaire de s'authentifier ou s'inscrire.
+on vous propose la liste des services que nous pouvons vous fournir sur ce plateforme.
+
+- cette application est juste un MVP 
+le but est de facilité la vie des étudiants.
+pour chaque service, il y aura des plan gratuit qui seront limité, et des plans payants, qui offre un surplus.
+

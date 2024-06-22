@@ -1,0 +1,62 @@
+import React from 'react'
+
+import { logo } from "./assets";
+import { profile } from './assets';
+import Button from './components/button';
+import { Link } from 'react-router-dom';
+import MonProgramme from './components/mon-programme';
+
+
+const listeDeMonCours = [
+    {
+        "titre": "géometrie",
+        "progres": "80",
+        "finis": false
+    },
+    {
+        "titre": "physique",
+        "progres": "80",
+        "finis": false
+    }
+];
+
+const listeDeMonCoursComplet= [
+    {
+        "titre": "Analyse de donnée",
+        "finis": true
+    }
+];
+export default function Home() {
+    return (
+        <div>
+            <div className="bg-secondary py-3 pr-[6%] shadow-xl">
+                <div className="flex justify-between pl-20  sm:items-center">
+                    <div>
+                        <Link to="/home">
+                            <img className=" left-0 top-0 z-10 h-8" src={logo} />
+                        </Link>
+                    </div>
+                    <div className="flex min-w-[40%]">
+                        <input type="text" placeholder="Qu'est ce que vous voulez apprendre?" className="flex-1 bg-secondary border border-5 rounded-lg px-8 py-1 text-lg text-white" />
+                        <Button order="primary" text="Rechercher" />
+                    </div>
+                    <div className="pr-24 flex justify-end items-center flex-wrap gap-8">
+                        <div className="flex justify-center items-center gap-2 cursor-pointer">
+                            <div className="rounded-full">
+                                <img src={profile} className="w-full" />
+                            </div>
+                            <div className="text-white">v</div>
+
+                        </div>
+
+                        <Button text="Deconnexion" order="primary" href="/login" />
+                    </div>
+                </div>
+            </div>
+            <div className="flex justify-center">
+                <MonProgramme listeDeMonCours={listeDeMonCours} listeDeMonCoursComplet={listeDeMonCoursComplet}/>
+            </div>
+           
+        </div>
+    )
+}

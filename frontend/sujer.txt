@@ -1,0 +1,46 @@
+Dévelopment d'outils pédagogique adaptive pour l'Education personalisé avec IA générative: 
+E-ANARO
+- problème: plateforme d'éducation inaccessible, non personalisable, difficilement personnalisable.
+
+- Besoins: 
+        - consulatation des cours en lignes (vidéo et texte)
+        - des exercices et quiz pour s'entraîner sur le sujet.
+        - Contenu ajuster en temps réel: selon le comportement de l'utilisateur. 
+        - suivre son apprentissage: son progrès, 
+        - consultation des catalogues de cours et recherches par catégorie
+        -  support interactif : discussion avec un IA sur des sujets de l'éducation. 
+        -  facilité de paiement: payement mobile (comme dans BET 261)
+
+- produit mise en avant: 
+        - IA de trie de cours. (par rapport sur les retours de utilisateur, )
+        - IA pour résumer les pdfs
+        - IA générative pour demander des questions.
+
+- catégorie de cours: 
+    - par spécilité:
+        - Business
+        - Informatique
+        - Mathématique
+        - Physique
+        - Langue 
+    - par niveau:
+        - Colégien
+        - lycée
+        - université
+- language des cours: Français
+- information sur le profile utilisateur : 
+        - Nom et prénom, nom d'utilisateur
+        - email et numéro de téléphone
+        - préference des utilisateurs  (matières favorites, niveau d'étude, objectifs d'apprentissage
+        
+- partenaire : 
+        - lycée 
+        - Université 
+
+
+cours: 
+- titre 
+- chapitre 
+        - section 
+                -sous-section
+- exercice
